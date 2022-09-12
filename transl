@@ -1,0 +1,2 @@
+#!/bin/bash
+tr "z" "6"|tr "b" "4"

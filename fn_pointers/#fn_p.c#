@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+ void mul(int num, int num2);
+int main()
+{
+  void (*mul_p)(int,int);
+
+  mul_p = mul;
+
+  mul_p(3,2) )
+}
+
+void mul(int num, int num2)
+{
+  return num * num2;
+}
