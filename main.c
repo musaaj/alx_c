@@ -1,7 +1,13 @@
-#include <stdio.h>
-int mai(void)
+#include "main.h"
+
+/**
+ * main - main entry
+ * Return: 0 always
+*/
+
+int main(void)
 {
-	char s = 'I';
-	write(1, &s, 1);
-	return (0);
+	char *greeting = "Hi! Good day";
+
+	printf("%s: %d", greeting, _strlen(greeting));
 }
